@@ -17,5 +17,4 @@ class String
   def count_sentences
     self.strip.split(/[?.!]/).compact.count
   end
-  binding.pry
 end
